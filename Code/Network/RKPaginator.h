@@ -171,6 +171,11 @@
  An array of fetch request blocks.
  */
 @property (nonatomic, copy) NSArray *fetchRequestBlocks;
+
+/**
+ Delete orphaned objects when loads first page
+ */
+@property (nonatomic, assign) BOOL deletesOrphanedObjects;
 #endif
 
 ///------------------------------------
